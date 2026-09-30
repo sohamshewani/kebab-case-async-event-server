@@ -1,0 +1,1 @@
+import unittest; from io.kebab.test import AsyncServerTest; suite = unittest.TestLoader().loadTestsFromTestCase(AsyncServerTest); runner = unittest.TextTestRunner(verbosity=2); runner.run(suite)

@@ -1,0 +1,1 @@
+all: build run build: javac -d build src/main/java/io/kebab/*.java run: java -cp build io.kebab.AsyncServer
